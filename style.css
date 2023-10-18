@@ -1,13 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
   background-image: url("./background.png");
   background-position: center top;
- background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -41,14 +41,11 @@ body {
   content: "|";
   padding: 0 12px;
   line-height: 17px;
-
 }
 
 .page-header ul li .checkout {
   color: rgba(66, 71, 116, 0.9);
 }
-
-
 
 .page-header ul li img {
   width: 10px;
@@ -61,7 +58,7 @@ body {
 
 .main-header {
   border-top: #c3c3c3 1px solid;
- border-bottom: #c3c3c3 1px solid;
+  border-bottom: #c3c3c3 1px solid;
 }
 
 .main-header .container {
@@ -82,7 +79,6 @@ body {
 }
 
 .main-header .container ul li {
-  
   border-right: white 1px solid;
   padding: 8px 9px;
 }
@@ -259,18 +255,16 @@ body {
 }
 
 .gallery-container .gallery-item {
-
-  height:170px;
-width: 297px;
+  height: 170px;
+  width: 297px;
   background-repeat: no-repeat;
-
 }
 
-.gallery-container .gallery-item .container  {
- 
+.gallery-container .gallery-item .container {
   margin-top: 24px;
   margin-bottom: 15px;
   width: 100%;
+
   border-right: 1px solid #aaaaaa;
 }
 
@@ -305,7 +299,7 @@ width: 297px;
 
 .gallery-container .clearance {
   background-image: url("./promo_album.png");
- 
+
   background-position: bottom right;
 }
 
@@ -318,25 +312,25 @@ width: 297px;
 /* .gallery-container .clearance .container .link {
   float: none;
 } */
-.footer-container{
-display: flex;
-justify-content: space-between;
-flex-direction: row;
-padding:3px 10px;
-color: #aaaaaa;
-}
-.footer-container ul {
+.footer-container {
   display: flex;
- 
-  list-style: none;
-  font-size: 12px;
- line-height: 25px;
-
-}
-.footer-left ul li a{
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 3px 10px;
   color: #aaaaaa;
 }
 
+.footer-container ul {
+  display: flex;
+
+  list-style: none;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.footer-left ul li a {
+  color: #aaaaaa;
+}
 
 .footer-container ul li:not(:last-child)::after {
   content: "|";
