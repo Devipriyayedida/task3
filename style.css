@@ -35,6 +35,7 @@ body {
   list-style: none;
   font-size: 12px;
   margin-top: 32px;
+  padding-right: 12px;
 }
 
 .page-header ul li:not(:last-child)::after {
@@ -107,6 +108,7 @@ body {
   line-height: 10px;
   width: 140px;
   border: none;
+  box-shadow: 1px 1px grey inset;
 }
 
 .main-header .container ul li .search-button .button {
@@ -194,8 +196,8 @@ body {
 
 .page-section img {
   width: 660px;
-  padding: 7px;
-  padding-bottom: 3px;
+  padding: 5px;
+  padding-bottom: 1px;
 }
 
 .page .page-section .section-table {
@@ -250,21 +252,22 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  border: 7px solid black;
+  border: 5px solid black;
   background-color: #fff;
 }
 
 .gallery-container .gallery-item {
-  height: 170px;
+  height: 146px;
   width: 297px;
   background-repeat: no-repeat;
+  padding: 8px;
 }
 
 .gallery-container .gallery-item .container {
-  margin-top: 24px;
-  margin-bottom: 15px;
+  /* margin-top: 24px;
+  margin-bottom: 15px; */
   width: 100%;
-
+height:100%;
   border-right: 1px solid #aaaaaa;
 }
 
@@ -282,9 +285,10 @@ body {
 .gallery-container .gallery-item .container .link {
   font-size: 10px;
   text-align: right;
-  padding: 0px 14px 72px;
+ padding-right: 10px;
   text-decoration: none;
   color: rgba(65, 71, 116, 0.9);
+  padding-left: 10px;
 }
 
 .gallery-container .stemware {
@@ -316,7 +320,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 3px 10px;
+  padding: 3px 3px;
   color: #aaaaaa;
 }
 
